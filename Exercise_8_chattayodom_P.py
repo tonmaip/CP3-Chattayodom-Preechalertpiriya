@@ -1,0 +1,30 @@
+print("Wecome To Tonmai Shop :")
+print("------------------------------------")
+Username = input("Username : ")
+Password = input("Password : ")
+
+if Username == "tm" and Password == "12345":
+    print("What Do you want to Eat")
+    print("No.1","  ข้าวหมูทอด          " ,"50" ,"THB")
+    print("No.2", " ข้าวหมูทอด + ไข่ดาว  ", "65", "THB")
+    print("No.3", " ข้าวมันไก่           ", "50", "THB")
+    print("No.4", " ข้าวขาหมู           ", "50", "THB")
+    print("No.5", " น้ำดื้ม ตราสิงโตร้องไห้ ", "10", "THB")
+
+    print("เลขเมนูที่ต้องการ 1,2,3,4,5")
+    Food = input("ใส่เลขเมนูอาหาร :")
+    if Food == "1":
+        print("No.1","  ข้าวหมูทอด          " ,"50" ,"THB")
+        manu1 = input("ใส่จำนวนที่ตองการ")
+        print("No.1","  ข้าวหมูทอด          " ,manu1 ,manu1*50,"THB")
+
+    if Food == "2":
+        print("No.2", " ข้าวหมูทอด + ไข่ดาว  ", "65", "THB")
+        manu2 = input("ใส่จำนวนที่ตองการ")
+        print("No.2", " ข้าวหมูทอด + ไข่ดาว  ", manu2, manu2 * 65, "THB")
+
+    if Food == " ":
+        print("No. ", "   ", "", "THB")
+        manu3 = input("ใส่จำนวนที่ตองการ")
+        print("No.3", " ข้าวหมูทอด + ไข่ดาว  ", manu3, manu3 * 65, "THB")
+
