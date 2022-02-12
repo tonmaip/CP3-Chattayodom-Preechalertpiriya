@@ -1,0 +1,10 @@
+a = int(input("Input 1 : "))
+b = int(input("Input 2 : "))
+q1 = a + b
+q2 = a - b
+q3 = a * b
+q4 = a / b
+print(a ,"+", b,"=",q1)
+print(a ,"-", b,"=",q2)
+print(a ,"*", b,"=",q3)
+print(a ,"/", b,"=",q4)
