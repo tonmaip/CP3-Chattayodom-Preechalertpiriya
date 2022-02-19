@@ -20,3 +20,5 @@ for x in range(userInput):
 
 
 
+for i in range(5):
+    print(i,end=":)")
