@@ -4,7 +4,7 @@ def writefile():
         employee_writer = csv.writer(employee_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
         employee_writer.writerow(['tonmai', 'Trader', 'May'])
-        employee_writer.writerow(['Erica Meyers', 'IT', 'March'])
+        employee_writer.writerow(['bank', 'Stock Investor', 'March'])
 
 
 
