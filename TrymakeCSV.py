@@ -5,6 +5,8 @@ def writefile():
 
         employee_writer.writerow(['tonmai', 'Trader', 'May'])
         employee_writer.writerow(['bank', 'Stock Investor', 'March'])
+        employee_writer.writerow(['toyo', 'Forex Investor', 'jan'])
+        
 
 
 
